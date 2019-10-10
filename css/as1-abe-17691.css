@@ -1,0 +1,386 @@
+
+
+body{
+    background-image: url("..//img/wallpaper.jpg");
+}
+#title{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    color:whitesmoke;
+    left: 50%;
+   top: 150px;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 1%;
+    margin: 1%;
+    color:whitesmoke;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about{
+    position: absolute;
+    color: aliceblue;
+    font-size: 2.5em;
+    left:5%;
+    top: 30%;
+}
+#info{
+    position: absolute;
+    color: whitesmoke;
+    font-size: 1.8em;
+    left:45%;
+    top:30%;
+}
+
+@media only screen and (min-width:100px){
+    #idan img {
+        position: absolute;
+        width: 250px;
+        height:180px;
+        top: 70%;
+        left: 7%;
+    }
+    #title{
+        position: absolute;
+        font-size: 45px;
+        left: 45%;
+        top: 4%;
+    }
+    li{
+
+        padding: 1%; 
+        left: 60%;  
+                       
+    }
+    a{
+        font-size: .8em;
+        padding:.5%;
+    }
+    #about {
+        top: 15%;
+        left: 40%;
+        font-size: 45px;
+    }
+    #info{
+        top:65%;
+        left: 10%;
+        font-size: 25px;
+        background-color: whitesmoke;
+        color: rgb(12, 50, 105);
+        border-style: double;
+        border-color: rgb(99, 11, 94);
+        border-bottom-width: 2%;
+        text-align: center;
+
+    }
+    #resume, #references, #portfolio, #contact{
+        position: absolute;
+        top:23%;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 40px;
+        left: 15%;
+    }
+    table{
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border: 2px;
+        background-color: whitesmoke;
+        top: 45%;
+        margin: 5%;
+        padding: 2%;
+    }
+    td{
+        border-style: solid;
+        border-color: lightslategray;
+        
+    }
+    th{
+        background-color: #191970;
+        color: whitesmoke;
+
+    }
+    #linex{
+        position: absolute;
+        background-color: dimgrey;
+        width: 25%;
+        height: 18%;
+        top: 3%;
+        font-size: 10px;
+        color: whitesmoke;
+        left: 70%;
+        border-style: dotted;
+        border-color: #191970;
+
+    }
+    #linedu{
+        position: absolute;
+        background-color: dimgrey;
+        width: 25%;
+        height: 18%;
+        top: 25%;
+        font-size: 10px;
+        color: whitesmoke;
+        left: 70%;
+        border-style: dotted;
+        border-color: #191970;
+    }
+    img{
+        position: absolute;
+        left: 60%;
+        width:35%;
+        height: 40%;
+        opacity:.9;
+        top: 115%;
+    }
+    #cont {
+        position: absolute;
+        top: 60%;
+        left:30%;
+        width: 250px;
+        padding: 3px;
+        font-size: 40px;
+    }
+    #mail img{
+        position: absolute;
+        top:80%;
+        height:100px;
+        left:25%;
+    }
+    #ref ul{
+        position: absolute;
+        font-size: 2em;
+        top:60%;
+        float: left;
+    }
+    #folder img{
+        position: absolute;
+        left: 7%;
+        top:50%;
+        animation-name: folder;
+        animation-delay: 2s;
+        animation-duration: 4s;
+        }
+        
+         @keyframes folder {
+            0%   {left:0px; top:0px;}
+            50%  {left:200px; top:200px;}
+            100% {left:0px; top:0px;}
+            
+    }
+
+    #work{
+        position: absolute;
+        color: whitesmoke;
+        font-size:40px;
+        top:83%;
+    }
+    #port{
+        position: absolute;
+        font-size: 20px;
+        background-color: grey;
+        color: whitesmoke;
+        top:65%;
+        left: 50%;
+        width:20%;
+        border-style: solid;
+        border-color:660E79;
+        text-decoration: underline;
+    }
+
+}
+
+@media only screen and (min-width:980px){
+    #title{
+        position: absolute;
+        font-size: 55px;
+        left: 48%;
+        top: 13%;
+}
+#idan img {
+    position: absolute;
+    width: 320px;
+    height:210px;
+    top: 50%;
+    left: 10%;
+}
+
+li{
+    padding:none; 
+    float: left;                  
+  
+}
+a{
+    text-decoration: none;
+    padding: 1px;
+    margin: 1%;
+    color:whitesmoke;
+    font-size: 1em;
+    
+}
+#info{
+    position: absolute;
+    font-size: 1.8em;
+    left:45%;
+    top:30%;
+
+}
+#about{
+    position: absolute;
+    color: aliceblue;
+    font-size: 2.5em;
+    left:5%;
+    top: 30%;}
+#resume, #portfolio, #references, #contact{
+    position: absolute;
+    color: aliceblue;
+    font-size: 3em;
+    left:30%;
+    top: 15%;
+    
+}
+#references{
+
+    float: center;
+}
+
+table{
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        border: 2px;
+        background-color: whitesmoke;
+        top: 35%;
+        margin: 5%;
+        padding: 2%;
+        width: 90%;
+
+    }
+    td{
+        border-style: solid;
+        border-color: lightslategray;
+        
+    }
+    th{
+        background-color: dimgrey;
+    }
+    #linex{
+        position: absolute;
+        background-color: rgb(12, 50, 105);
+        width: 30%;
+        height: 20%;
+        top: 110%;
+        font-size: 15px;
+        color: whitesmoke;
+        left: 10%;
+        border-style: dotted;
+        border-color: aliceblue;
+    }
+    #linedu{
+        position: absolute;
+        background-color: rgb(12, 50, 105);
+        width: 30%;
+        height: 20%;
+        top: 110%;
+        font-size: 15px;
+        color: whitesmoke;
+        left: 50%;
+        border-style: dotted;
+        border-color: aliceblue;
+        
+
+    }
+    img{
+        position: absolute;
+        left: 70%;
+        width:15%;
+        height: 35%;
+        opacity:.9;
+        top: 5%;
+    }
+    #mail img{
+        position: absolute;
+        top:40%;
+        height:250px;
+        width: 300px;
+        left:60%;
+    }
+    #ref {
+        position: absolute;
+        font-size: .8em;
+        left:40%;
+        top: 40%;
+        text-align: center; 
+    }
+    #ref li{
+        padding: 30px;
+    }
+    #folder img{
+        position: absolute;
+        left: 60%;
+        top:10%;
+        animation-name: folder;
+        animation-delay: 2s;
+        animation-duration: 4s;
+        }
+        
+         @keyframes folder {
+            0%   {left:0px; top:0px;}
+            50%  {left:200px; top:200px;}
+            100% {left:0px; top:0px;}
+            
+    }
+    #port{
+        position: absolute;
+        font-size: 20px;
+        background-color: grey;
+        color: whitesmoke;
+        width: 30%;
+        height: 15%;
+        top: 50%;
+        padding: 1em;
+        margin: 1em;
+        border-style: solid;
+        border-color:660E79;
+        text-decoration: underline;
+        
+    }
+  
+}
+
+@media only screen and (min-width:1300px){
+    img{
+        position: absolute;
+        width: 400px;
+        top: 50%;
+    }
+    #info{
+        position: absolute;
+        font-size: 1.8em;
+        left:45%;
+        top:30%;
+    }
+
+    #about{
+            position: absolute;
+            font-size: 2.5em;
+            left:5%;
+            top: 30%;
+        }
+        img{
+            position: absolute;
+            left: 70%;
+            width:15%;
+            height: 35%;
+            opacity:.9;
+            top: 5%;
+        }   
+    
+
+}
